@@ -1,34 +1,55 @@
 /* ページ全体 */
 
 body {
-  background-color: #0f1923;
+  background-color: black;
 }
 .about__title {
-  color: chartreuse;
+  color: lightseagreen;
 }
 /** ヘッダー */
 
 .header__container {
+  background-color: #030303;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header__nav {
-  width: 400px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  width: 300px;
 }
 
-.nav-item {
+.nav-item a {
+  color: darkgreen;
+  text-decoration: none;
+}
+
+.section-title {
+  background-color: aliceblue;
+  color: chartreuse;
+}
+.about__description {
+  color: aliceblue;
+  width: 50%;
 }
 
 /* メンバー */
 .member-section .members {
+  background-color: #030303;
 }
 
 .member {
 }
 
 .member__image img {
+  width: 300px;
 }
 
 .member__name {
+  background-color: black;
+  color: aliceblue;
 }
 
 /* ゲーム */
