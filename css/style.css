@@ -36,20 +36,30 @@ body {
 }
 
 /* メンバー */
-.member-section .members {
-  background-color: #030303;
+.member-section {
+  background-color: white;
 }
 
-.member {
+.member1 {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  background-color: black;
+}
+
+.member__image {
+  width: 100%;
 }
 
 .member__image img {
-  width: 300px;
+  width: 100%;
 }
 
 .member__name {
   background-color: black;
-  color: aliceblue;
+  color: white;
+}
+.members {
 }
 
 /* ゲーム */
