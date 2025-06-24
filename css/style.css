@@ -62,7 +62,7 @@ h2 {
 }
 
 .member__image img {
-  width: 140px;
+  width: 125px;
 }
 
 .member__name {
@@ -118,7 +118,6 @@ h2 {
   background-color: pink;
 }
 .contact-section {
-  padding-left: 50px;
   background-color: pink;
 }
 
@@ -130,10 +129,16 @@ p {
   margin-bottom: 4px;
   margin-top: 5px;
 }
-
+@media screen and (min-width: 481px) and (max-width: 1200px) {
+  .games {
+    flex-wrap: wrap;
+  }
+  .contact-section {
+    padding-left: 50px;
+  }
+}
 @media screen and (max-width: 480px) {
   .games {
-    display: flex;
     flex-wrap: wrap;
   }
   .contact-section {
